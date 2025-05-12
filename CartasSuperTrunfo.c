@@ -12,10 +12,10 @@ int main() {
     char A , B;
     char A01 , B02 [40];
     char São paulo , Rio de janeiro [50];
-    int 1232500 , 6748000 ;
-    float 1521.11 , 1200.25 k;
-    float 699.28  , 300.50;
-    int 50,30;
+    int populacao;
+    float area;
+    float PIB;
+    int Pontos;
 
     // Cadastro das Cartas:
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
