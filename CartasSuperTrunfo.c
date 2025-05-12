@@ -9,9 +9,9 @@
 int main() {
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
-    char A , B;
-    char A01 , B02 [40];
-    char São paulo , Rio de janeiro [50];
+    char opcoes;
+    char Cartas [40];
+    char Estados [50];
     int populacao;
     float area;
     float PIB;
@@ -33,7 +33,7 @@ int main() {
     printf("Código da carta: %s \n", A01);
     scanf("%s", A01);
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
-    printf("Nome da cidade: %s \n", São paulo );
+    printf("Estado: %s \n", São paulo );
     scanf("%s", São paulo);
     
     printf("População: %f \n", 12325000);
@@ -48,9 +48,9 @@ int main() {
     printf("Número de pontos turísticos: %f \n", 50);
     scanf("%f", 50);
 
-    printf("Escolha sua carta: %s - Nome da cidade: %s", char, char);
-    printf("População: %f - Área em km²: %f", int , float);
-    printf("PIB: %f - Número de pontos turísticos: %f", float, int );
+    printf("Escolha sua carta: %s - Cartas: %s", opcoes, Cartas);
+    printf("Estado: %s - População: %f - Área em km²: %f",Estados, populacao, area );
+    printf("PIB: %f - Número de pontos turísticos: %f",PIB , Pontos );
 
      return 0; 
 
