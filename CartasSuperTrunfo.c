@@ -13,8 +13,8 @@ int main() {
     char A01 , B02 [40];
     char São paulo , Rio de janeiro [50];
     int 1232500 , 6748000 ;
-    float 1521.11 km² , 1200.25 km²;
-    float 699.28 bilhões de reais , 300.50 bilhões de reais;
+    float 1521.11 , 1200.25;
+    float 699.28  , 300.50;
     int 50,30;
 
     // Cadastro das Cartas:
@@ -32,22 +32,22 @@ int main() {
     printf("Código da carta: %s \n", A01);
 
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
-    printf("Nome da cidade: %s \n", São paulo);
+    printf("Nome da cidade: %s \n", São paulo );
 
     
     printf("População: %f \n", 12325000);
 
     
-    printf("Área em km²:%f \n", 1521.11 km²);
+    printf("Área em km²:%f \n", 1521.11 );
 
     
-    printf("PIB: %f \n", 699.28 bilhões de reais);
+    printf("PIB: %f \n", 699.28 );
 
     
     printf("Número de pontos turísticos: %f \n", 50);
 
      return 0; 
-     
+
 
 
 }
