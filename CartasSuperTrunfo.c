@@ -13,7 +13,7 @@ int main() {
     char A01 , B02 [40];
     char São paulo , Rio de janeiro [50];
     int 1232500 , 6748000 ;
-    float 1521.11 , 1200.25;
+    float 1521.11 , 1200.25 k;
     float 699.28  , 300.50;
     int 50,30;
 
@@ -22,29 +22,35 @@ int main() {
     printf("Desafio super triunfo\n");
 
     // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    printf("Aqui as cartas dísponiveis\n");
-
+    printf("Escolha sua carta\n");
+     scanf("%s", A );
     
     // Exibição dos Dados das Cartas:
     printf("Estado: %c \n - Código: \n", A );
+    scanf("%c", A);
 
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     printf("Código da carta: %s \n", A01);
-
+    scanf("%s", A01);
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
     printf("Nome da cidade: %s \n", São paulo );
-
+    scanf("%s", São paulo);
     
     printf("População: %f \n", 12325000);
-
+    scanf("%f",12325000 );
     
     printf("Área em km²:%f \n", 1521.11 );
-
+    scanf("%f", 1521.11);
     
     printf("PIB: %f \n", 699.28 );
-
+    scanf("%f", 699.28);
     
     printf("Número de pontos turísticos: %f \n", 50);
+    scanf("%f", 50);
+
+    printf("Escolha sua carta: %s - Nome da cidade: %s", char, char);
+    printf("População: %f - Área em km²: %f", int , float);
+    printf("PIB: %f - Número de pontos turísticos: %f", float, int );
 
      return 0; 
 
