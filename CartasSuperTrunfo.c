@@ -23,12 +23,10 @@ int main() {
 
     // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
     printf("Escolha sua carta\n");
-     scanf("%s",opcoes);
-    
+     
     // Exibição dos Dados das Cartas:
-    printf("Estado: %c \n - Código: \n", A );
-    
-
+    printf("Carta 1\n");
+   
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     printf("Código da carta: A01 \n");
    
@@ -47,11 +45,26 @@ int main() {
     
     printf("Número de pontos turísticos: 50 \n");
     
+    
+    printf("Carta 2\n");
 
     
+    printf("Estado: Rio de janeiro\n");
 
     
     
+    printf("População: 6748000\n");
+
+    
+    printf("Área em km²: 1200.25 km²\n ");
+
+    
+    printf("PIB: 300.50 bilhões de reais\n");
+
+    
+    printf("Números de pontos turísticos: 30\n");
+
+
      return 0; 
 
 
