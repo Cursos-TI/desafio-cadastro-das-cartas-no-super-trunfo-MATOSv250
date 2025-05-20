@@ -14,7 +14,6 @@
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 #include <stdio.h>
-#include <string.h>
 
 int main() {
     char estado;
@@ -28,19 +27,14 @@ int main() {
     printf("Desafio super triunfo\n");
     
     printf("Digite o estado (uma letra):\n");
-    scanf(" %c", &estado);  // o espaço antes do %c é importante
+    scanf(" %c", &estado);  
     
-    // Limpar o buffer do teclado após ler o char
-    while (getchar() != '\n');
-
     printf("Digite o código:\n");
-    fgets(codigo, sizeof(codigo), stdin);
-    codigo[strcspn(codigo, "\n")] = 0;  // Remove o '\n' do final da string
-
+    scanf("%s", codigo);
+    
     printf("Digite o nome da cidade:\n");
-    fgets(cidade, sizeof(cidade), stdin);
-    cidade[strcspn(cidade, "\n")] = 0;
-
+    scanf("%s", cidade);
+    
     printf("Digite a população:\n");
     scanf("%f", &populacao);
     
@@ -62,9 +56,5 @@ int main() {
     printf("PIB: %.2f\n", PIB);
     printf("Número de pontos turísticos: %.2f\n", Pontos);
 
-    return 0;
+    return 0; 
 }
-
-
-
-
