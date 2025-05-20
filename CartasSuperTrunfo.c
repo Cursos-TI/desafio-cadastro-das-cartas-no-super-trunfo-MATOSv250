@@ -26,7 +26,7 @@ int main() {
 
     printf("Desafio super triunfo\n");
     
-    printf("Digite o estado (uma letra):\n");
+    printf("Digite o estado :\n");
     scanf(" %c", &estado);  
     
     printf("Digite o código:\n");
