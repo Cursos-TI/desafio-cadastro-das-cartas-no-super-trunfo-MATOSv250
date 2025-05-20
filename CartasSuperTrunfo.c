@@ -9,60 +9,52 @@
 int main() {
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
-    char opcoes, A , B ;
-    char Cartas, A01[40], A02[50];
-    char Estados [50];
-    int populacao ;
+    char estado;
+    char codigo[40];
+    char cidade [50];
+    float populacao ;
     float area;
     float PIB;
-    int Pontos;
-
+    float Pontos;
     // Cadastro das Cartas:
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    printf("Desafio super triunfo\n");
-
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    printf("Escolha sua carta\n");
-     
+    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc. 
     // Exibição dos Dados das Cartas:
-    printf("Carta 1\n");
-   
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    printf("Código da carta: A01 \n");
-   
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
-    printf("Estado: São paulo \n");
+ 
+    printf("Desafio super triunfo\n");
     
     
-    printf("População: 12325000\n");
+    printf("Digite o estado:\n ");
+    scanf(" %c", &estado);
     
+    printf("Digite o código:\n ");
+    scanf("%s", &codigo);
     
-    printf("Área em km²: 1521.11km²\n" );
+    printf("Digite o nome da cidade:\n ");
+    scanf("%s", &cidade);
     
+    printf("Digite a população:\n ");
+    scanf("%f", &populacao); 
     
-    printf("PIB: 699.28 Bilhões de reais \n" );
-    
-    
-    printf("Número de pontos turísticos: 50 \n");
-    
-    
-    printf("Carta 2\n");
+    printf("Digite a área em km²:\n");
+    scanf("%f", &area );
+
+    printf("Digite seu PIB:\n");
+    scanf("%f", &PIB);
 
     
-    printf("Estado: Rio de janeiro\n");
+    printf("Digite o núemro de pontos turísticos:\n");
+    scanf("%f", &Pontos);
 
-    
-    
-    printf("População: 6748000\n");
 
-    
-    printf("Área em km²: 1200.25 km²\n ");
+    printf("SUA CARTA :");
 
-    
-    printf("PIB: 300.50 bilhões de reais\n");
+    printf("Estado:%c - Código:%s - Nome da cidade: %s", estado, A01, cidade);
+    printf("População: %f - Área: %f - PIB: %f", populacao, area, PIB);
+    printf("Número de pontos turísticos: %f", Pontos);
 
-    
-    printf("Números de pontos turísticos: 30\n");
 
 
      return 0; 
