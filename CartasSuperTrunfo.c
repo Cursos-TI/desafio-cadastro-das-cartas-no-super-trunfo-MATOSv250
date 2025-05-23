@@ -16,7 +16,6 @@
 #include <stdio.h>
 
 int main() {
-    // Declaração dos dados para duas cartas
     char estado1, estado2;
     char codigo1[40], codigo2[40];
     char cidade1[50], cidade2[50];
@@ -24,7 +23,6 @@ int main() {
     float area1, area2, PIB1, PIB2;
     int pontos1, pontos2;
 
-    // Entrada da Carta 1
     printf("Digite os dados da CARTA 1:\n");
     printf("Estado: ");
     scanf(" %c", &estado1);
@@ -41,7 +39,6 @@ int main() {
     printf("Número de pontos turísticos: ");
     scanf("%d", &pontos1);
 
-    // Entrada da Carta 2
     printf("\nDigite os dados da CARTA 2:\n");
     printf("Estado: ");
     scanf(" %c", &estado2);
@@ -58,7 +55,7 @@ int main() {
     printf("Número de pontos turísticos: ");
     scanf("%d", &pontos2);
 
-    // Cálculo de atributos derivados
+    
     float densidade1 = (float)populacao1 / area1;
     float densidade2 = (float)populacao2 / area2;
     float pibPerCapita1 = (PIB1 * 1000000000) / populacao1;
@@ -66,7 +63,7 @@ int main() {
     float superPoder1 = (float)populacao1 + area1 + PIB1 + pontos1 + pibPerCapita1 + (1 / densidade1);
     float superPoder2 = (float)populacao2 + area2 + PIB2 + pontos2 + pibPerCapita2 + (1 / densidade2);
 
-    // Impressão das cartas
+
     printf("\n--- SUA CARTA 1 ---\n");
     printf("Estado: %c\n", estado1);
     printf("Código: %s\n", codigo1);
@@ -91,7 +88,7 @@ int main() {
     printf("PIB per Capita: %.2f reais\n", pibPerCapita2);
     printf("Super Poder: %.2f\n", superPoder2);
 
-    // Comparações
+    
     printf("\n--- COMPARAÇÃO DE CARTAS ---\n");
     printf("População: Carta 1 venceu (%d)\n", populacao1 > populacao2);
     printf("Área: Carta 1 venceu (%d)\n", area1 > area2);
